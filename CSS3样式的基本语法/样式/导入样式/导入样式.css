@@ -1,0 +1,12 @@
+h1{
+	text-align: center;
+	/* 居中 */
+	color: #0000ff;
+}
+p{
+	font-weight: bolder;
+	/* 加粗 */
+	text-decoration: underline;
+	/* 下划线 */
+	font-size: 1.25rem;
+}
