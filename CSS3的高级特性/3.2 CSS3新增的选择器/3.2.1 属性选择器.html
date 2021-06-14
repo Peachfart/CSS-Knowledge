@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>属性选择器</title>
+		<style type="text/css">
+			[align] {color: red;}
+			[align="left"] {font-size: 40px; font-weight: bolder;}
+			[ddd~="vvv"] {color: purple;font-size: 64px;}
+			[ttt|="t"] {color: brown;font-size: 38px;}
+			[lang^="en"] {color: blue; text-decoration: underline;}
+			[alt$="gif"] {height: 200px; width: 300px;}
+			[abc*="g"] {color: deeppink; font-size: 48px;}
+		</style>
+	</head>
+	<body>
+		<p align=center>1234</p>
+		<p align=left>5678</p>
+		<p ddd="ddd vvv">91010</p>
+		<p ttt="t-t-t">ggg</p>
+		<p lang="en-us">前缀定义样式</p>
+		<p>后缀定义样式
+		<img src="https://tse1-mm.cn.bing.net/th?id=OIP.hZvv9U5ViYryroYjzUajxQHaFS&w=151&h=103&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="这是图片.gif">
+		<p abc="abcdg">hhh</p>
+		</p>
+	</body>
+</html>
