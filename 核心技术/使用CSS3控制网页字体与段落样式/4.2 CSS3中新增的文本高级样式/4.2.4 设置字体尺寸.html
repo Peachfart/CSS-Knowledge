@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>设置字体尺寸</title>
+		<style type="text/css">
+			p {
+				font-family: sans-serif;
+				font-size: 40pt;
+			}
+			.a {
+				font-size: 30pt;
+				font-size-adjust: 1;
+			}
+			.b {
+				font-size: 15pt;
+				font-size-adjust: 0.5;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>语法：{font-size-adjust: none | number}</h2>
+		<p><span class="a">none: 默认值。允许字体序列中每个字体遵守它自己的尺寸</span></p>
+		<p><span class="b">number：为字体序列中所有字体强迫指定同一尺寸</span></p>
+	</body>
+</html>
