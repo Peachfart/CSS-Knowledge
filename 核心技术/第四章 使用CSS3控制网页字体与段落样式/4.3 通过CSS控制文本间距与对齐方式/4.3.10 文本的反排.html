@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>文本的反排</title>
+	</head>
+	<body>
+		<h2>unicode-bidi语法格式: {unicode-bidi: normal | bidi-override | embed}</h2>
+		<h2>direction语法格式: {direction: ltr | rtl | inherit}</h2>
+		<p style="direction: ltr;unicide-bidi: normal;">normal: 默认值。元素不会打开一个额外的嵌入级别。对于内联元素，隐式的重新排序将跨元素边界起作用。ltr: 文本流从左到右</p>
+		<p style="direction: rtl;bidi-override;">bidi-override: 与 embed 值相同，但除了这一点外：在元素内，重新排序依照 direction 属性严格按顺序进行。此值代替隐式双向算法。rtl: 文本流从右到左</p>
+		<p style="direction: inherit; unicode-bidi: embed;">embed: 元素将打开一个额外但嵌入级别。direction 属性但值指定嵌入级别。重新排序在元素内是隐式进行的。inherit: 文本流的值不可继承</p>
+	</body>
+</html>
